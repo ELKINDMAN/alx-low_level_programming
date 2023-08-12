@@ -3,13 +3,13 @@
 /*
 * main - Entry point
 *
-* Description: A program that prints using puts
+* Description: A program that prints a message using the puts function.
 * Author: elkanah kindman
 *
 * Return: Always 0 (sucess)
 */
 int main(void)
 {
-	puts("\"programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
