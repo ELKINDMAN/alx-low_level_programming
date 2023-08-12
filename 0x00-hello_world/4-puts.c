@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
-* main - Entry point
+* main - is the entry point of the code program
 *
 * Description: A program that prints a message using the puts function.
 * Author: elkanah kindman
