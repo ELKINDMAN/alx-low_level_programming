@@ -5,7 +5,7 @@
 /**
  * main - entry point of the program
  *
- * description - This program will assign a random number to the variable n each time it is executed. 
+ * description - Program assigns random value to 'n' on each execution. 
  * author - ELKINDMAN
  *
  *
@@ -18,14 +18,15 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
-	printf("%d",n);
+	printf("%d", n);
 
-	if (n > 0) {
+	if (n > 0) 
 		printf(" is positive\n");
-	} else if (n == 0) {
+	 else if (n == 0)  
+	{
 		printf(" is zero\n");
-	} else {
+	} 
+	else {
 		printf(" is negative\n");
 	}	
 	return (0);
