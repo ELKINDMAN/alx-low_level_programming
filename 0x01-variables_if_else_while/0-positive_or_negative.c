@@ -5,7 +5,7 @@
 /**
  * main - entry point of the program
  *
- * description - Program_assigns_random_value_to_'n'_on_each_execution. 
+ * description - Program_assigns_random_value_to_'n'_on_each_execution.
  * author - ELKINDMAN
  *
  *
@@ -20,15 +20,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	printf("%d", n);
 
-	if (n>0) 
+	if (n > 0)
 		printf(" is positive\n");
-	else if (n==0)  
+	else if (n == 0)
 	{
 		printf(" is zero\n");
-	} 
-	else 
+	}
+	else
 	{
 		printf(" is negative\n");
-	}	
+	}
 	return (0);
 }
