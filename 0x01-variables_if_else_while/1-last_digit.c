@@ -4,7 +4,7 @@
 /**
  * main - entry point of the program
  *
- * description - The program will assign a random value to the variable 'n' and executes it.
+ * description - Program assigns random value to 'n' on each execution.
  *Author - ELKINDMAN
  *
  *
@@ -18,12 +18,12 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	printf("Last digit of %d", n);
-	printf(" is %d", n);
-		if (n>5)
+	printf(" is %d", n % 10);
+		if (n % 10 > 5)
 			printf(" and is greater than 5\n");
-		else if (n == 0)
+		else if (n % 10 == 0)
 		{
-			printf (" and is 0\n");
+			printf(" and is 0\n");
 		}
 		else
 		{
