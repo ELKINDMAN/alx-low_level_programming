@@ -13,14 +13,14 @@
 
 int main(void)
 {
-        int ch;
+	int ch;
 
-        for (ch = 0; ch <= 9; ch++)
-        {
+	for (ch = 0; ch <= 9; ch++)
+	{
                 putchar(ch + '0');
-        }
+	}
 
-        putchar('\n');
+	putchar('\n');
 
-        return (0);
+	return (0);
 }
