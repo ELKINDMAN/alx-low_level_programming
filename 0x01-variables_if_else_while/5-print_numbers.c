@@ -11,17 +11,16 @@
  * Return: Always 0 (Success)
  */
 
-int main()
+int main(void)
 {
-    int ch;
-
-    for (ch = 0; ch <= 9; ch++)
-    {
+	int ch;
+	for (ch = 0; ch <= 9; ch++)
+	{
 
         printf("%d", ch);
-    }
-    printf("\n");
+	}
+	printf("\n");
 
-    return (0);
+	return (0);
 }
 
