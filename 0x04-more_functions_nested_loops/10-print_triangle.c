@@ -11,6 +11,7 @@
 void print_triangle(int size)
 {
 	int row, spaces, hashes;
+
 	if (size <= 0)
 	{
 		_putchar('\n');
