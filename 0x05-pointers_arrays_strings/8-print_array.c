@@ -7,7 +7,7 @@
  * @n: Number of elements to be printed.
  *
  * Description: This function prints the first @n elements of the array
- *              pointed to by @a, separated by commas and followed by a new line.
+ *              pointed to by @a, separated by commas.
  */
 void print_array(int *a, int n)
 {

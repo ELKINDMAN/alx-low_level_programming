@@ -6,7 +6,7 @@
  *
  * Description: This function calculates the length of the string pointed
  *              to by @str, then prints the second half of the string.
- *              If the length is odd, it prints the last (length - 1) / 2 characters.
+ *              If the length is odd, it prints the last
  */
 void puts_half(char *str)
 {
