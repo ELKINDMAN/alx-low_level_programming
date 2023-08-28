@@ -1,23 +1,18 @@
-#define NULL ((void *)0)
 #include "main.h"
-
 /**
- * *_strchr - locates a character in a string.
- * @s: first parameter.
- * @c: second parameter.
- *
- * Return: pointe for successful match and NULL for no match.
+ * _strchr - Entry point
+ * @s: input
+ * @c: input
+ * Return: Always 0 (Success)
  */
 char *_strchr(char *s, char c)
 {
-	int chk;
+	int i = 0;
 
-	for (chk = 0; s[chk] != '\0'; chk++)
+	for (; s[i] >= '\0'; i++)
 	{
-		if (s[chk] == c)
-		{
-			return (s + c);
-		}
+		if (s[i] == c)
+			return (&s[i]);
 	}
-	return (NULL);
+	return (0);
 }
