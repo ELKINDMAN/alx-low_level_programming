@@ -1,20 +1,21 @@
 #include "main.h"
-
 /**
- * *_memcpy - function thst copies memory area to a destination area.
- * @dest: first parameter.
- * @src: second parameter.
- * @n: third parameter.
+ *_memcpy - a function that copies memory area
+ *@dest: memory where is stored
+ *@src: memory where is copied
+ *@n: number of bytes
  *
- * Return: pointer to @dest.
+ *Return: copied memory with n bytes changed
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unsigned int trk;
+	int r = 0;
+	int i = n;
 
-	for (trk = 0; trk < n; trk++)
+	for (; r < i; r++)
 	{
-		src[trk] = dest[trk];
+		dest[r] = src[r];
+		n--;
 	}
 	return (dest);
 }
