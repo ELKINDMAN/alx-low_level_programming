@@ -5,6 +5,8 @@
  * @s: first parameter a pointer to s
  * @b: second parameter a char.
  * @n: third parameter an int.
+ *
+ * Return: Pointer to the memory area @s.
  */
 char *_memset(char *s, char b, unsigned int n)
 {
