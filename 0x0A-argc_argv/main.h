@@ -2,6 +2,6 @@
 #define MAIN_H
 
 int _putchr(char c);
-int _atoi(char 8s);
+int _atoi(char *s);
 
 #endif
