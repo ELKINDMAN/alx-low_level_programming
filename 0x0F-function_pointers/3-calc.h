@@ -13,19 +13,14 @@ int op_mod(int a, int b);
 /* structure for prog*/
 
 /**
- *  * struct op - Struct op
- *   *
- *    * @op: The operator
- *     * @f: The function associated
- *      */
+ * struct op - Struct op
+ *
+ * @op: The operator
+ * @f: The function associated
+ */
 typedef struct op
 {
-	    char *op;
-	        int (*f)(int a, int b);
+    char *op;
+    int (*f)(int a, int b);
 } op_t;
-
-/* 3-get_op_func prototype */
-
-int (*get_op_func(char *s))(int, int);
-
 #endif
