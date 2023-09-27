@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdlib.h>
 
 /**
  * add_nodeint - adds a new node at the beginning of a linked list
@@ -11,7 +12,7 @@ listint_t *add_nodeint(listint_t **head, const int n)
 {
 	listint_t *addnode;
 
-	new = malloc(sizeof(listint_t));
+	addnode = malloc(sizeof(listint_t));
 	if (addnode == NULL)
 	{
 		return (NULL);
