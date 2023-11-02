@@ -13,12 +13,12 @@ void *malloc_checked(unsigned int b)
 	int *memAlloc;
 
 	memAlloc = malloc(b);
-	if(memAlloc != NULL)
+	if (memAlloc != NULL)
 	{
 		return (memAlloc);
 	}
 	else
 	{
-		exit (98);
+		exit(98);
 	}
 }
